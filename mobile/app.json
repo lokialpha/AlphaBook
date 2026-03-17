@@ -6,6 +6,8 @@
     "orientation": "portrait",
     "userInterfaceStyle": "light",
     "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
       "backgroundColor": "#F4EFE6"
     },
     "assetBundlePatterns": ["**/*"],
@@ -13,6 +15,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.alphabook.app",
       "adaptiveIcon": {
         "backgroundColor": "#F4EFE6"
       }
