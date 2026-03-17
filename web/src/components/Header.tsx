@@ -1,6 +1,6 @@
 import { Link, NavLink } from 'react-router-dom'
 import type { User } from '@supabase/supabase-js'
-import { useI18n } from '../lib/i18n'
+import { useI18n } from '../lib/useI18n'
 
 const navLinkClass = ({ isActive }: { isActive: boolean }) =>
   isActive ? 'nav-link nav-link-active' : 'nav-link'

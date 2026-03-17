@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { useI18n } from '../lib/i18n'
+import { useI18n } from '../lib/useI18n'
 
 const getErrorMessage = (error: unknown) => {
   if (error && typeof error === 'object' && 'message' in error) {

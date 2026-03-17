@@ -5,7 +5,7 @@ import { supabase } from '../lib/supabaseClient'
 import type { Comment, ProgressUpdate, Session, SessionDocument } from '../lib/types'
 import ProgressBar from '../components/ProgressBar'
 import AuthPanel from '../components/AuthPanel'
-import { useI18n } from '../lib/i18n'
+import { useI18n } from '../lib/useI18n'
 
 const DOCUMENT_BUCKET = 'session-pdfs'
 const MAX_DOCUMENT_SIZE = 20 * 1024 * 1024

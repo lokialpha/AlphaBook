@@ -3,7 +3,7 @@ import type { User } from '@supabase/supabase-js'
 import { supabase } from '../lib/supabaseClient'
 import type { Profile } from '../lib/types'
 import AuthPanel from '../components/AuthPanel'
-import { useI18n } from '../lib/i18n'
+import { useI18n } from '../lib/useI18n'
 
 type ProfileProps = {
   user: User | null

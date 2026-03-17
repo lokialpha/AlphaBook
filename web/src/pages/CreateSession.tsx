@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import type { User } from '@supabase/supabase-js'
 import { supabase } from '../lib/supabaseClient'
 import AuthPanel from '../components/AuthPanel'
-import { useI18n } from '../lib/i18n'
+import { useI18n } from '../lib/useI18n'
 
 const splitChapters = (value: string) => {
   const list = value
