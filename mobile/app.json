@@ -10,7 +10,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#F4EFE6"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -19,6 +21,12 @@
       "adaptiveIcon": {
         "backgroundColor": "#F4EFE6"
       }
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "986b47bb-8456-4e1b-8763-8e6423960ec4"
+      }
+    },
+    "owner": "lokialpha"
   }
 }
